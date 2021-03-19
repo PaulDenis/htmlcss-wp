@@ -1,0 +1,81 @@
+/* debug */
+
+#banner {
+    height: 500px;
+    background-color: yellow;
+}
+
+
+/* /debug */
+
+/* common */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clear-fix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* main content section */
+nav {
+    height: 150px;
+    background-color: palevioletred;
+} 
+
+#banner, main {
+    margin-top: 25px;
+}
+
+main {
+    padding-bottom: 1%;
+    background-color: blue;
+}
+
+#upper-banner {
+    height: 80px;
+    background-color: cyan;
+    margin-bottom: 1%;
+}
+
+#central-spot {
+    width: 50%;
+    float: left;
+    height: 570px;
+    margin: 1%;
+    background-color: cyan;
+}
+
+aside {
+    height: 570px;
+    width: 24%;
+    margin: 1% 0;
+    background-color: cyan;
+
+}
+#left {
+    float: left;
+}
+#right {
+    float: right;
+}
+
+
+/* page ending */
+
+#close-page {
+    height: 75px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: blueviolet;
+}
