@@ -34,19 +34,34 @@ body {
     color: black;
 }
 
+.paragraph {
+    /* font-weight: 100; */
+    font-size: 14px;
+}
+.title {
+    display: inline-block;
+    padding: 10px 0;
+    color: black;
+}
+.text {
+    color: grey;
+}
+.black-layer {
+    height: 243px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
 /* header */
 
-img {
+#logo {
     height: 75px;
 }
-#logo {
+#logo-container {
     display: inline-block;
     border-right: 1px solid lightgray;
     padding-right: 30px;
-}
-
-nav {
-    padding-top: 40px;
+    margin-bottom: 40px;
 }
 
 #banner {
@@ -54,7 +69,7 @@ nav {
     margin-top: 30px;
     margin-bottom: 25px;
     border-radius: 20px;
-    background-image: url(../img/banner.jpg);
+    background-image: url("../img/banner.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -69,46 +84,65 @@ nav {
 
 /* main content section */
 
+.title-structure {
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+#main-title {
+    font-size: 40px;
 
-main {
-    padding-bottom: 1%;
-    background-color: blue;
+}
+#subtitle {
+    color: gray;
 }
 
-#upper-banner {
-    height: 80px;
-    background-color: cyan;
-    margin-bottom: 1%;
-}
+/* #left-picture {
+    width: 100%;
+} */
 
 #central-spot {
-    width: 50%;
+    width: 58%;
     float: left;
-    height: 570px;
     margin: 1%;
-    background-color: cyan;
+    background-repeat: no-repeat
 }
-
+#central-image {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-image: url("../img/banner-2.jpg");
+    background-size: cover;
+    background-position: center;
+}
 aside {
-    height: 570px;
-    width: 24%;
+    width: 20%;
     margin: 1% 0;
-    background-color: cyan;
-
 }
+
 #left {
     float: left;
 }
-#right {
-    float: right;
+#left-image {
+    background-image: url('../img/img-1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
 }
 
+#right {
+    float: right;  
+}
+
+#right-image {
+    background-image: url("../img/img-4.jpg");
+    background-repeat: no-repeat;   
+    border-radius: 10px;
+
+}
 
 /* page ending */
 
 #close-page {
     height: 75px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 20px;
-    background-color: blueviolet;
 }
