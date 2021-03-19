@@ -1,4 +1,3 @@
-
 /* common */
 * {
     box-sizing: border-box;
@@ -22,7 +21,6 @@ body {
     list-style: none;
     display: inline-block;
     padding: 10px 10px 10px 0;
-
 }
 .inline-menu a {
     text-decoration: none;
@@ -76,7 +74,6 @@ body {
     background-size: cover;
     background-position: center;
 }
-
 #text-container {
     height: 500px;
     padding: 350px 600px 40px 40px;
@@ -110,6 +107,7 @@ body {
     background-size: cover;
     background-position: center;
 }
+
 aside {
     width: 20%;
     margin: 1% 0;
